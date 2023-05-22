@@ -1,52 +1,33 @@
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
-
+<html>
 <head>
-    <meta charset="utf-8" />
+  <meta charset="UTF-8">
+    <script>
+      window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
+      window.LIVECHAT_CHANNEL_UUID = '7cc85bfe-f900-48f5-b3ce-5ada194949b3';
+      window.LIVECHAT_AVATAR_ICON_WIDTH = 65
+      window.LIVECHAT_AVATAR_ICON = 'https://i.ibb.co/3NVbcmY/Logo-Gov-BR.jpg';
+      window.LIVECHAT_AVATAR_ICON_HEIGHT = 50
+      window.LIVECHAT_TITLE = 'Assistente Virtual Gov.BR'
+      window.LIVECHAT_LOGO_ICON = 'https://i.ibb.co/3NVbcmY/Logo-Gov-BR.jpg'
+    </script>
 
-        <script>
-          window.LIVECHAT_CHANNEL_UUID = '7cc85bfe-f900-48f5-b3ce-5ada194949b3';
-          window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
-          window.LIVECHAT_AVATAR_ICON = 'https://www.gov.br/compras/pt-br/icones-pagina-inicial/headphone.png';
-          window.LIVECHAT_TITLE = 'Ministério da Economia'
-          window.LIVECHAT_LOGO_ICON = 'https://www.gov.br/economia/logo.png'
-        </script>
+    <style>
+      :root {
+        --livechat-primary: #1351b4;
+        --livechat-primary-light: #e6f8fb;
+        --livechat-primary-dark: #0147b7;
+        --livechat-secondary: #696667;
+        --livechat-secondary-light: #e9e9e9;
+        --livechat-link: #1351b4;
+        --livechat-negative: #fe604f;
+        --livechat-avatar-background: transparent;
+        --livechat-avatar-background-hover: transparent;
+      }
+    </style>
 
-        <style>
-          :root {
-            --livechat-primary: #1351b4;
-            --livechat-primary-light: #e6f8fb;
-            --livechat-primary-dark: #0147b7;
-            --livechat-secondary: #696667;
-            --livechat-secondary-light: #e9e9e9;
-            --livechat-link: #1351b4;
-            --livechat-negative: #fe604f;
-            --livechat-avatar-background: transparent;
-            --livechat-avatar-background-hover: transparent;
-          }
-        </style>
-
-        <script defer src="https://tooke-widgets.s3.us-east-1.amazonaws.com/tooke-live-chat.min.js"></script>
-    
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://www.gov.br/economia",
-            "logo": "https://www.gov.br/economia/logo.png"
-        }</script>
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://www.gov.br/economia",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.gov.br/economia/search?SearchableText={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-        }</script>
-    
+    <script defer src="https://tooke-widgets.s3.us-east-1.amazonaws.com/tooke-live-chat.min.js"></script>
+</head>
+<body>
 </body>
 </html>
